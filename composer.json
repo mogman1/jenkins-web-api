@@ -3,7 +3,7 @@
     "description": "PHP library for communicating with the Jenkins web API.",
     "version": "1.0.0",
     "type": "library",
-    "keywords": ["jenkins","api","ci"],
+    "keywords": ["jenkins","web","api","ci"],
     "license": "MIT",
     "authors": [
         {
