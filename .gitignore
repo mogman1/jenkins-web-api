@@ -1,0 +1,8 @@
+composer.lock
+.buildpath
+.settings
+.project
+build
+vendor
+output.log
+test/Jenkins/Test.php

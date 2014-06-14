@@ -1,0 +1,29 @@
+{
+    "name": "mogman1/jenkins-web-api",
+    "description": "PHP API wrapper for retrieving information from Jenkins and triggering builds.",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["jenkins","api","ci"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaun Carlson",
+            "email": "shaun.carlson@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "shaun.carlson@gmail.com",
+        "source": "https://github.com/mogman1/jenkins-web-api",
+        "issues": "https://github.com/mogman1/jenkins-web-api/issues"
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {"mogman1\\": "src"}
+    }
+}
