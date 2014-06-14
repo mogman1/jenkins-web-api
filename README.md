@@ -20,6 +20,7 @@ Currently, the following data objects are supported:
 Installation
 ------------
 This package can be installed using composer:
+
 ```
   "require": {
     "mogman1/jenkins-web-api": "1.*"
@@ -106,6 +107,16 @@ try {
 }
 
 echo $build->getConsoleLog();
+```
+
+Finally, you can run a query directly against the Jenkins server with the get() method
+on the Jenkins class.  The first parameter is the path to query on the server, and the
+second is an associative array of any parameters you might wish to submit with your
+request.  The return type is HttpResponse:
+
+```php
+$httpResponse = $jenkins->get("/job/your-job", array());
+echo $httpResponse->getBody();
 ```
 
 For everything else, take a look at the code.  All methods and properties have been
