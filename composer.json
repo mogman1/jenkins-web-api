@@ -1,6 +1,6 @@
 {
     "name": "mogman1/jenkins-web-api",
-    "description": "PHP API wrapper for retrieving information from Jenkins and triggering builds.",
+    "description": "PHP library for communicating with the Jenkins web API.",
     "version": "1.0.0",
     "type": "library",
     "keywords": ["jenkins","api","ci"],
