@@ -117,7 +117,7 @@ class QueueItem extends ApiObject {
    *
    * @param Jenkins $conn
    * @param JsonData $data
-   * @return \mogman1\Jenkins\QueueItem
+   * @return \mogman1\Jenkins\ApiObject\QueueItem
    */
   public static function factory(Jenkins $conn, JsonData $data) {
     $id = $data->get("id", "");
